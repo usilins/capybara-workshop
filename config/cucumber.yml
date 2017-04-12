@@ -1,0 +1,2 @@
+ci: --format json --out report/<%= ENV['BROWSER'] %><%= ENV['TEST_ENV_NUMBER'] %>.json --format rerun --out <%= ENV['BROWSER'] %><%= ENV['TEST_ENV_NUMBER'] %>.log
+rerun: --format json --out report/<%= ENV['BROWSER'] %><%= ENV['TEST_ENV_NUMBER'] %>_rerun.json
