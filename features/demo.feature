@@ -1,4 +1,5 @@
 Feature: Demo Feature
 
-    Scenario: Open Login Page
-        Given I am on Appimation login page
+    Scenario: Open SignUp Page
+        Given I am on Appimation home page
+        When I click Try Now
